@@ -1,0 +1,5 @@
+GDrive Signin
+
+viewdidload 的地方直接整合viewdidappear的部分，目前會出現的Bug是第一次登入後沒辦法reload tableview在新增之後才能夠再次更新，目前還沒到解決的方法。
+
+發現是signindelegate沒有指定造成，已經解決問題。
